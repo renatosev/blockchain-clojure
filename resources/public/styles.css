@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #121212;
+  color: #E0E0E0;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #0c7e7e;
+}
+
+.container {
+  margin: 20px auto;
+  padding: 75px;
+  background-color: #00272d;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  max-width: 600px;
+  /*display: inline-flexbox; */
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+input {
+  width: 93.5%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #0c7e7e;
+  border-radius: 4px;
+  background-color: #00272d;
+  color: #E0E0E0;
+}
+
+select {
+ 
+  width: 97.2%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #0c7e7e;
+  border-radius: 4px;
+  background-color: #00272d;
+  color: #E0E0E0;
+
+
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  background-color: #0c7e7e;
+  color: #121212;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00ffff;
+}
+
+#transactions-list, #blocks-list {
+  margin-top: 20px;
+}
+
+#blocks-list div {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #0c7e7e;
+}
