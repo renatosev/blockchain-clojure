@@ -31,8 +31,8 @@ Cada bloco na blockchain contém as seguintes informações:
 
 1. **Clonar o Repositório**:
    ```bash
-   git clone <URL_DO_REPOSITORIO>
-   cd <NOME_DO_REPOSITORIO>
+   git clone [<URL_DO_REPOSITORIO>](https://github.com/renatosev/blockchain-clojure.git)
+   cd blockchain-clojure
 
 2. **Instalar Dependências**:
     ```bash
